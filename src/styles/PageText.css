@@ -1,0 +1,9 @@
+.page {
+    font-family: "Virgil";
+    font-size: 1.25vw;
+}
+
+.page .header1 {
+    text-align: center;
+    font-size: 4vw;
+}

@@ -5,8 +5,12 @@ import '../styles/Notebook.css';
 export const Notebook: FC = () => {
 	return (
 		<div className='notebook'>
-			<Page>Hi, I'm David</Page>
-			<Page>Page 2</Page>
+			<Page>
+				<div className='header1'>DAVID CHEN</div>
+			</Page>
+			<Page>
+				<div>Previously done a lot of things</div>
+			</Page>
 		</div>
 	);
 };
