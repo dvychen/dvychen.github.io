@@ -8,4 +8,6 @@
     display: flex;
     width: 76vw;
     height: 46vw; /* 76 * (1356/2240) = 46 */
+
+    font-family: "Virgil";
 }

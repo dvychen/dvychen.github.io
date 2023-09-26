@@ -1,0 +1,10 @@
+body {
+  overscroll-behavior: none;
+}
+
+/* Font Defintions */
+
+@font-face {
+  font-family: "Virgil";
+  src: url("../fonts/Virgil.woff2");
+}

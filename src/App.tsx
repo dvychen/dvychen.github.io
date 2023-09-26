@@ -1,6 +1,6 @@
 import { Desk } from './components/Desk';
 
-import './App.css';
+import './styles/App.css';
 import { Notebook } from './components/Notebook';
 
 function App() {
