@@ -14,9 +14,7 @@ export const Notebook: FC = () => {
 						Computer Science @ University of Waterloo (graduating
 						<span className='highlight'>April 2025</span>)
 					</li>
-					<li>
-						Working as SWE @ Transify - I'm the very first employee!
-					</li>
+					<li>SWE Intern @ Transify - I'm their first employee!</li>
 					<li>
 						Researching @ VIP Lab - 3D avatar reconstruction from
 						videos via neural nets
