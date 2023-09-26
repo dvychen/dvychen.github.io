@@ -7,4 +7,12 @@
 .page .header1 {
     font-size: 3vw;
     font-weight: bold;
+    margin-bottom: 1vw;
+}
+
+.page ul {
+    font-size: 1.3vw;
+}
+.page li {
+    margin-bottom: 1vw;
 }
