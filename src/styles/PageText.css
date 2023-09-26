@@ -1,9 +1,10 @@
 .page {
     font-family: "Virgil";
-    font-size: 1.25vw;
+    font-size: 1.4vw;
+    white-space: pre-line; /* Enables '\n' */
 }
 
 .page .header1 {
-    text-align: center;
-    font-size: 4vw;
+    font-size: 3vw;
+    font-weight: bold;
 }

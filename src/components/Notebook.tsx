@@ -7,6 +7,7 @@ export const Notebook: FC = () => {
 		<div className='notebook'>
 			<Page>
 				<div className='header1'>DAVID CHEN</div>
+				<div>Hi, I'm David!</div>
 			</Page>
 			<Page>
 				<div>Previously done a lot of things</div>
