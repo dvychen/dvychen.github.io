@@ -4,15 +4,8 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 2240px;
-    height: 1356px;
-    max-height: 80vh;
-    max-width: 80vw;
 
     display: flex;
-    /* 
-    TODO: Add CSS such that the Page components are aligned with the background image.
-    - May have to use font-size in vw units?
-    - May have to hardcode pixel sizes for different breakpoints
-    */
+    width: 76vw;
+    height: 46vw; /* 76 * (1356/2240) = 46 */
 }
