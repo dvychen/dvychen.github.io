@@ -22,8 +22,10 @@ export const Notebook: FC = () => {
 				</ul>
 			</Page>
 			<Page>
-				<div>Previously done a lot of things... </div>
-				<div style={{ textAlign: 'center' }}>(coming soon...)</div>
+				{/* <div>Previously done a lot of things... </div> */}
+				<div style={{ textAlign: 'center' }}>
+					(this page coming soon...)
+				</div>
 			</Page>
 		</div>
 	);
