@@ -2,6 +2,7 @@ import './styles/App.css';
 
 import { Desk } from './components/Desk';
 import { Notebook } from './components/Notebook';
+import { withSplashScreen } from './components/SplashScreen';
 
 function App() {
 	return (
@@ -11,4 +12,4 @@ function App() {
 	);
 }
 
-export default App;
+export default withSplashScreen(App);
