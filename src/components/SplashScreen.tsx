@@ -1,6 +1,6 @@
 import { FC, useEffect, useState } from 'react';
 
-import AnimatedDavidChenWriting from '../assets/animated-davidchen-writing.gif';
+import AnimatedDavidChenWriting from '../assets/animated-davidchen-writing-transparent.gif';
 import '../styles/SplashScreen.css';
 
 const SplashScreen: FC = () => {
