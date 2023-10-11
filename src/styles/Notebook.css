@@ -8,4 +8,13 @@
     display: flex;
     width: 76vw;
     height: 46vw; /* 76 * (1356/2240) = 46 */
+
+    ::-moz-selection { /* Code for Firefox */
+        background: #fae88e;
+    }
+    ::selection {
+        background: #fae88e;
+    }
+
+    /* TODO: Make the <a> tags have fancy underlining animation on hover! */
 }
