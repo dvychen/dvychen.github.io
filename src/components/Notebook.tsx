@@ -18,16 +18,33 @@ export const Notebook: FC = () => {
 		>
 			<Page>
 				<div className='header1'>DAVID CHEN</div>
-				<div className=''>Hi, I'm David!</div>
+				<div className=''>Hi, I'm David...</div>
 				<ul>
 					<li>
 						Computer Science @ University of Waterloo (graduating
 						April 2025)
 					</li>
-					<li>SWE Intern @ Transify - I'm their first employee!</li>
 					<li>
-						Research Assistant @ VIP Lab - neural nets to extract 3D
-						avatars from videos
+						SWE Intern @{' '}
+						<a
+							href='https://transify.com'
+							target='_blank'
+							rel='noreferrer'
+						>
+							Transify
+						</a>{' '}
+						- I'm their first employee!
+					</li>
+					<li>
+						Research Assistant @{' '}
+						<a
+							href='https://uwaterloo.ca/vision-image-processing-lab/'
+							target='_blank'
+							rel='noreferrer'
+						>
+							VIP Lab
+						</a>{' '}
+						- neural nets to extract 3D avatars from videos
 					</li>
 				</ul>
 			</Page>
