@@ -22,12 +22,12 @@ export const Notebook: FC = () => {
 				<ul>
 					<li>
 						Computer Science @ University of Waterloo (graduating
-						<span className='highlight'>April 2025</span>)
+						April 2025)
 					</li>
 					<li>SWE Intern @ Transify - I'm their first employee!</li>
 					<li>
-						Researching @ VIP Lab - 3D avatar reconstruction from
-						videos via neural nets
+						Research Assistant @ VIP Lab - neural nets to extract 3D
+						avatars from videos
 					</li>
 				</ul>
 			</Page>
