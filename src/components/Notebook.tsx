@@ -29,6 +29,11 @@ export const Notebook: FC = () => {
 						Software Delivery, and more!
 					</li>
 				</ul>
+				<div className='preview'>
+					(hobbies & interests coming soon...)
+				</div>
+			</Page>
+			<Page>
 				<div>Previously...</div>
 				<ul>
 					<li>
@@ -84,15 +89,10 @@ export const Notebook: FC = () => {
 						>
 							Solace
 						</a>{' '}
-						- my first internship
+						- full stack development
 					</li>
 				</ul>
-			</Page>
-			<Page>
-				{/* <div>Previously done a lot of things... </div> */}
-				<div style={{ textAlign: 'center' }}>
-					(past projects & hobbies coming soon...)
-				</div>
+				<div className='preview'>(past projects coming soon...)</div>
 			</Page>
 		</motion.div>
 	);
