@@ -14,6 +14,7 @@
     font-size: 1.3vw;
     padding-left: 2vw;
 }
-.page li {
+/* Don't apply margin-bottom to last child, as the <ul> already has its own margin-bottom. */
+.page li:not(:last-child) {
     margin-bottom: 1vw;
 }

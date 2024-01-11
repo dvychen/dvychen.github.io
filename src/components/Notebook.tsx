@@ -18,12 +18,19 @@ export const Notebook: FC = () => {
 		>
 			<Page>
 				<div className='header1'>DAVID CHEN</div>
-				<div className=''>Hi, I'm David...</div>
+				<div>Hi, I'm David...</div>
 				<ul>
 					<li>
 						Computer Science @ University of Waterloo (graduating
 						April 2025)
 					</li>
+					<li>
+						Taking courses on Distributed Systems, Concurrency,
+						Software Delivery, and more!
+					</li>
+				</ul>
+				<div>Previously...</div>
+				<ul>
 					<li>
 						SWE Intern @{' '}
 						<a
@@ -33,7 +40,7 @@ export const Notebook: FC = () => {
 						>
 							Transify
 						</a>{' '}
-						- I'm their first employee!
+						- I was their first employee!
 					</li>
 					<li>
 						Research Assistant @{' '}
@@ -46,12 +53,45 @@ export const Notebook: FC = () => {
 						</a>{' '}
 						- neural nets to extract 3D avatars from videos
 					</li>
+					<li>
+						SWE Intern @{' '}
+						<a
+							href='https://www.replicant.com/'
+							target='_blank'
+							rel='noreferrer'
+						>
+							Replicant
+						</a>{' '}
+						- led my first ML research project
+					</li>
+					<li>
+						SWE Intern @{' '}
+						<a
+							href='https://www.super.com/'
+							target='_blank'
+							rel='noreferrer'
+						>
+							Super.com
+						</a>{' '}
+						- A/B testing to 40k+ users
+					</li>
+					<li>
+						SWE Intern @{' '}
+						<a
+							href='https://solace.com/'
+							target='_blank'
+							rel='noreferrer'
+						>
+							Solace
+						</a>{' '}
+						- my first internship
+					</li>
 				</ul>
 			</Page>
 			<Page>
 				{/* <div>Previously done a lot of things... </div> */}
 				<div style={{ textAlign: 'center' }}>
-					(this page is coming soon...)
+					(past projects & hobbies coming soon...)
 				</div>
 			</Page>
 		</motion.div>
