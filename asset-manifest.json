@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.9892dc0e.css",
-    "main.js": "/static/js/main.9a4239ca.js",
+    "main.css": "/static/css/main.044e85de.css",
+    "main.js": "/static/js/main.14c72695.js",
     "static/js/787.b315bc22.chunk.js": "/static/js/787.b315bc22.chunk.js",
-    "static/media/natural-wooden-background.jpg": "/static/media/natural-wooden-background.eaef41d17686253cfe91.jpg",
-    "static/media/notebook.png": "/static/media/notebook.d281177ed17149d031ad.png",
+    "static/media/notebook.png": "/static/media/notebook.e6a7a7ff14a3f3730e58.png",
+    "static/media/natural-wooden-background.jpg": "/static/media/natural-wooden-background.8e1f9516abf82a71f282.jpg",
     "static/media/Virgil.woff2": "/static/media/Virgil.740490b285bcdadee39a.woff2",
     "static/media/animated-davidchen-writing-transparent.gif": "/static/media/animated-davidchen-writing-transparent.b1ba299203ca8fc51058.gif",
     "index.html": "/index.html",
-    "main.9892dc0e.css.map": "/static/css/main.9892dc0e.css.map",
-    "main.9a4239ca.js.map": "/static/js/main.9a4239ca.js.map",
+    "main.044e85de.css.map": "/static/css/main.044e85de.css.map",
+    "main.14c72695.js.map": "/static/js/main.14c72695.js.map",
     "787.b315bc22.chunk.js.map": "/static/js/787.b315bc22.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9892dc0e.css",
-    "static/js/main.9a4239ca.js"
+    "static/css/main.044e85de.css",
+    "static/js/main.14c72695.js"
   ]
 }
