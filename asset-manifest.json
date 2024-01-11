@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.044e85de.css",
-    "main.js": "/static/js/main.14c72695.js",
+    "main.css": "/static/css/main.5109433a.css",
+    "main.js": "/static/js/main.63362371.js",
     "static/js/787.b315bc22.chunk.js": "/static/js/787.b315bc22.chunk.js",
     "static/media/notebook.png": "/static/media/notebook.e6a7a7ff14a3f3730e58.png",
     "static/media/natural-wooden-background.jpg": "/static/media/natural-wooden-background.8e1f9516abf82a71f282.jpg",
     "static/media/Virgil.woff2": "/static/media/Virgil.740490b285bcdadee39a.woff2",
     "static/media/animated-davidchen-writing-transparent.gif": "/static/media/animated-davidchen-writing-transparent.b1ba299203ca8fc51058.gif",
     "index.html": "/index.html",
-    "main.044e85de.css.map": "/static/css/main.044e85de.css.map",
-    "main.14c72695.js.map": "/static/js/main.14c72695.js.map",
+    "main.5109433a.css.map": "/static/css/main.5109433a.css.map",
+    "main.63362371.js.map": "/static/js/main.63362371.js.map",
     "787.b315bc22.chunk.js.map": "/static/js/787.b315bc22.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.044e85de.css",
-    "static/js/main.14c72695.js"
+    "static/css/main.5109433a.css",
+    "static/js/main.63362371.js"
   ]
 }
