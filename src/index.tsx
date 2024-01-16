@@ -17,3 +17,7 @@ root.render(
 
 // Google Analytics
 ReactGA.initialize('G-CZYSM5GVS4');
+ReactGA.send({
+	hitType: 'pageview',
+	title: 'Page Visited',
+});
