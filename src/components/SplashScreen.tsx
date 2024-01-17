@@ -23,18 +23,21 @@ const SplashScreen: FC = () => {
 
 export const withSplashScreen = (Component: React.FC) => {
 	const WrappedComponent: FC = (props) => {
-		const [loading, setLoading] = useState<boolean>(true);
+		const [drawn, setDrawn] = useState<boolean>(false);
 
 		useEffect(() => {
-			const timeForSplashScreen = 3000;
-			setTimeout(() => {
-				setLoading(false);
-			}, timeForSplashScreen);
+			const drawingTime = 3000;
+			const drawingTimeout = setTimeout(() => {
+				setDrawn(true);
+			}, drawingTime);
+			return () => {
+				clearTimeout(drawingTimeout);
+			};
 		}, []);
 
 		return (
 			<>
-				<AnimatePresence>{loading && <SplashScreen />}</AnimatePresence>
+				<AnimatePresence>{!drawn && <SplashScreen />}</AnimatePresence>
 				<Component {...props} />
 			</>
 		);
