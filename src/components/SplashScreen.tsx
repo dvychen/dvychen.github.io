@@ -59,7 +59,7 @@ export const withSplashScreen = (Component: React.FC) => {
 				<AnimatePresence>
 					{showSplashScreen && <SplashScreen />}
 				</AnimatePresence>
-				<Component {...props} />
+				{!showSplashScreen && <Component {...props} />}
 			</>
 		);
 	};

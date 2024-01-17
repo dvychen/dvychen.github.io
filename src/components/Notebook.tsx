@@ -10,7 +10,7 @@ export const Notebook: FC = () => {
 			initial={{ y: '-100vh' }}
 			animate={{ y: 0 }}
 			transition={{
-				delay: 4.5,
+				delay: 1.5,
 				duration: 0.5,
 				ease: easeInOut,
 			}}
