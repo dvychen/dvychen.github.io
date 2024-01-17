@@ -6,6 +6,10 @@ import App from './App';
 
 import './index.css';
 
+// Analytics
+const GOOGLE_ANALYTICS_MEASUREMENT_ID = 'G-CZYSM5GVS4';
+ReactGA.initialize(GOOGLE_ANALYTICS_MEASUREMENT_ID);
+
 const root = ReactDOM.createRoot(
 	document.getElementById('root') as HTMLElement
 );
@@ -14,10 +18,3 @@ root.render(
 		<App />
 	</React.StrictMode>
 );
-
-// Google Analytics
-ReactGA.initialize('G-CZYSM5GVS4');
-ReactGA.send({
-	hitType: 'pageview',
-	title: 'Page Visited',
-});
