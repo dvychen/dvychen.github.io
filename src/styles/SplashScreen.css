@@ -3,12 +3,34 @@
     z-index: 100;
     width: 100vw;
     height: 100vh;
+
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     background-color: white;
 }
 
 .splash-screen .animated-drawing {
-    margin: auto;
-    padding-bottom: 5vw;
+    width: 249px;
+    height: 213px;
+}
+
+.splash-screen .preloader {
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.splash-screen .preloader .loading-text {
+    font-size: 24px;
+    font-family: "Virgil";
+    margin-top: 2px;
+}
+
+.splash-screen .preloader .loading-animation {
+    height: 100px;
 }

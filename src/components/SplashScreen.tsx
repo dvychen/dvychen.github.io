@@ -3,12 +3,17 @@ import { AnimatePresence, motion } from 'framer-motion';
 
 import '../styles/SplashScreen.css';
 import AnimatedDavidChenWriting from '../assets/animated-davidchen-writing-transparent.gif';
+import LoadingAnimation from '../assets/book-preloader.gif';
 import DeskBackground from '../assets/natural-wooden-background.jpg';
 import NotebookBackground from '../assets/notebook.png';
 
+interface SplashScreenProps {
+	showPreloader: boolean;
+}
+
 const BIG_IMAGE_SRCS = [DeskBackground, NotebookBackground];
 
-const SplashScreen: FC = () => {
+const SplashScreen: FC<SplashScreenProps> = ({ showPreloader }) => {
 	return (
 		<motion.div
 			animate={{ opacity: 1 }}
@@ -21,6 +26,19 @@ const SplashScreen: FC = () => {
 				alt='Animated writing of "David Chen"'
 				className='animated-drawing'
 			/>
+
+			<motion.div
+				initial={false}
+				animate={{ opacity: showPreloader ? 1 : 0 }}
+				className='preloader'
+			>
+				<img
+					src={LoadingAnimation}
+					alt='Preloader animation of a book'
+					className='loading-animation'
+				/>
+				<span className='loading-text'>Loading...</span>
+			</motion.div>
 		</motion.div>
 	);
 };
@@ -57,7 +75,9 @@ export const withSplashScreen = (Component: React.FC) => {
 		return (
 			<>
 				<AnimatePresence>
-					{showSplashScreen && <SplashScreen />}
+					{showSplashScreen && (
+						<SplashScreen showPreloader={!drawingLogo} />
+					)}
 				</AnimatePresence>
 				{!showSplashScreen && <Component {...props} />}
 			</>
