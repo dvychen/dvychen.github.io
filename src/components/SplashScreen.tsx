@@ -1,8 +1,12 @@
 import { FC, useEffect, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 
-import AnimatedDavidChenWriting from '../assets/animated-davidchen-writing-transparent.gif';
 import '../styles/SplashScreen.css';
+import AnimatedDavidChenWriting from '../assets/animated-davidchen-writing-transparent.gif';
+import DeskBackground from '../assets/natural-wooden-background.jpg';
+import NotebookBackground from '../assets/notebook.png';
+
+const BIG_IMAGE_SRCS = [DeskBackground, NotebookBackground];
 
 const SplashScreen: FC = () => {
 	return (
@@ -23,21 +27,38 @@ const SplashScreen: FC = () => {
 
 export const withSplashScreen = (Component: React.FC) => {
 	const WrappedComponent: FC = (props) => {
-		const [drawn, setDrawn] = useState<boolean>(false);
+		const [drawingLogo, setDrawingLogo] = useState<boolean>(true);
+		const [imagesLoading, setImagesLoading] = useState<number>(
+			BIG_IMAGE_SRCS.length
+		);
 
 		useEffect(() => {
 			const drawingTime = 3000;
 			const drawingTimeout = setTimeout(() => {
-				setDrawn(true);
+				setDrawingLogo(false);
 			}, drawingTime);
 			return () => {
 				clearTimeout(drawingTimeout);
 			};
 		}, []);
 
+		useEffect(() => {
+			BIG_IMAGE_SRCS.forEach((src) => {
+				const image = new Image();
+				image.addEventListener('load', () => {
+					setImagesLoading((count) => count - 1);
+				});
+				image.src = src;
+			});
+		}, []);
+
+		const showSplashScreen = drawingLogo || imagesLoading > 0;
+
 		return (
 			<>
-				<AnimatePresence>{!drawn && <SplashScreen />}</AnimatePresence>
+				<AnimatePresence>
+					{showSplashScreen && <SplashScreen />}
+				</AnimatePresence>
 				<Component {...props} />
 			</>
 		);
