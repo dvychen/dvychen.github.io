@@ -18,19 +18,38 @@ export const Notebook: FC = () => {
 		>
 			<Page>
 				<div className='header1'>DAVID CHEN</div>
-				<div>Hi, I'm David...</div>
+				<div>Hi, I'm...</div>
 				<ul>
 					<li>
-						Computer Science @ University of Waterloo (graduating
-						April 2025)
+						Studying Computer Science (business spec.)
+						@&nbsp;University of Waterloo
 					</li>
-					<li>
-						Taking courses on Distributed Systems, Concurrency,
-						Software Delivery, and more!
-					</li>
+					<li>Graduating April 2025!</li>
 				</ul>
 				<div>Previously...</div>
 				<ul>
+					<li>
+						SWE Intern @{' '}
+						<a
+							href='https://www.janestreet.com/'
+							target='_blank'
+							rel='noreferrer'
+						>
+							Jane Street
+						</a>{' '}
+						- worked on the equities desk & the dev tools team
+					</li>
+					<li>
+						SWE Intern @{' '}
+						<a
+							href='https://www.citadel.com/'
+							target='_blank'
+							rel='noreferrer'
+						>
+							Citadel
+						</a>{' '}
+						- learned a ton about data center infrastructure
+					</li>
 					<li>
 						SWE Intern @{' '}
 						<a
@@ -64,6 +83,10 @@ export const Notebook: FC = () => {
 						</a>{' '}
 						- led my first ML research project
 					</li>
+				</ul>
+			</Page>
+			<Page>
+				<ul style={{ marginTop: 0 }}>
 					<li>
 						SWE Intern @{' '}
 						<a
@@ -87,9 +110,9 @@ export const Notebook: FC = () => {
 						- my first internship
 					</li>
 				</ul>
-			</Page>
-			<Page>
-				{/* <div>Previously done a lot of things... </div> */}
+				<div style={{ textAlign: 'center' }}>.</div>
+				<div style={{ textAlign: 'center' }}>.</div>
+				<div style={{ textAlign: 'center' , marginBottom : '32px'}}>.</div>
 				<div style={{ textAlign: 'center' }}>
 					(past projects & hobbies coming soon...)
 				</div>
