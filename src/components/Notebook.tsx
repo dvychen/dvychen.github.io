@@ -112,7 +112,7 @@ export const Notebook: FC = () => {
 				</ul>
 				<div style={{ textAlign: 'center' }}>.</div>
 				<div style={{ textAlign: 'center' }}>.</div>
-				<div style={{ textAlign: 'center' , marginBottom : '32px'}}>.</div>
+				<div style={{ textAlign: 'center' , marginBottom : '1em'}}>.</div>
 				<div style={{ textAlign: 'center' }}>
 					(past projects & hobbies coming soon...)
 				</div>
